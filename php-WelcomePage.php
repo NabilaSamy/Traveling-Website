@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Traveling Page</title>
+		<link rel="stylesheet" href="CSS/css-WelcomePage.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+	
+		<div class="header">Welcome to Traveling Website</div>
+		
+		<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Open</span>
+		
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="php-WelcomePage.php"><i class="fa fa-fw fa-home"></i> Home</a>
+			<a href="LoginPage.html"><img src="Images/Icons/Login.png" style="width:24;height:24;align:center;">&nbsp Login</a>
+			<a href="SignupPage.html"><img src="Images/Icons/Signup.png" style="width:24;height:24;align:center;">&nbsp  Signup</a>
+			<a href="AboutPage.html"><i class="fa fa-fw fa-exclamation mark"></i> About</a>
+			<a href="ServicesPage.html"><i class="fa fa-fw fa-wrench"></i> Services</a>
+			<a href="ContactPage.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+		</div>
+		
+		<div class="content">
+			<div class="mySlides fade">
+				<img src="Images/img_nature_wide.jpg" style="width:80%">
+			</div>
+			
+			<div class="mySlides fade">
+				<img src="Images/img_fjords_wide.jpg" style="width:80%">
+			</div>
+			
+			<div class="mySlides fade">
+				<img src="Images/img_mountains_wide.jpg" style="width:80%">
+			</div>
+		</div>
+		
+		<div style="text-align:center">
+			<span class="dot"></span>
+			<span class="dot"></span>
+			<span class="dot"></span>
+		</div>
+		
+		<script type="text/javascript" src="JS/script-WelcomePage.js"></script>
+		
+		<br><br>
+		<div class="footer">
+			Copyright &copy; 2018 All Right To Nabila Samy &reg; Team
+		</div>
+	</body>
+</html>

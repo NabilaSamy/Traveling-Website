@@ -1,0 +1,106 @@
+body{
+	background:#EFEFEF;
+	font-family:Arial, Tahoma;
+}
+
+/* Header */
+.header{
+	background:#333;
+	color:#FFF;
+	font-size:20px;
+	text-align:center;
+	padding:20px 0;
+}
+
+/*Content */
+.content{
+	text-align:center;
+	margin:150px;
+	margin-top: 10px;
+	margin-bottom:20px;
+	padding:12px;
+	color:black;
+	border:black dotted hidden;
+}
+
+/*Paragraph in Content */
+p{
+	margin:20px;
+	overflow:hidden;
+}
+
+/* Support1, Support2, Support3 */
+.Support1, .Support2, .Support3{
+	width:250px;
+	height:210px;
+	margin:10px;
+	margin-left:70px;
+	padding:5px;
+	overflow:hidden;
+	border:5px dotted #000;
+	letter-spacing:1px;
+}
+
+/* Support2 */
+.Support2, .Support3{
+	height:180px;
+	margin-left:420px;
+	margin-top:-230px;
+	float:left;
+}
+
+/* Support3 */
+.Support3{
+	margin-left:780px;
+	margin-top:-230px;
+}
+
+/* Side bar Navigation */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+/* Side bar Navigation- Links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* Side bar Navigation- Moving on links */
+.sidenav a:hover {color: #f1f1f1;}
+
+/* Side bar Navigation- Close */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* Footer */
+.footer{
+	background:#333;
+	color:#FFF;
+	text-align:center;
+	padding:10px;
+	position:static;
+}

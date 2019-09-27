@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>Update Page</title>
+		<link rel="stylesheet" href="CSS/css-UpdatePage.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="header">Welcome to Traveling Website</div>
+		
+		<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Open</span>
+		
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<a href="php-HomePage.php"><i class="fa fa-fw fa-home"></i> Home</a>
+			<a href="php-ProfilePage.php"><img src="Images/Icons/Profile.png" style="width:24;height:24;align:center;"> &nbsp Profile </a>
+			<a href="php-AboutPage.php"><i class="fa fa-fw fa-exclamation mark"></i> About</a>
+			<a href="php-ServicesPage.php"><i class="fa fa-fw fa-wrench"></i> Services</a>
+			<a href="php-ContactPage.php"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+			<a href="php-WelcomePage.php"><img src="Images/Icons/Logout.png" style="width:24;height:24;align:center;"> &nbsp Logout</a>
+		</div>
+		
+		<div class="content">
+			<form action="php-UpdatePage.php" name="UpdateForm" method="POST" onsubmit="return validation()">
+				<fieldset>
+						<legend>Update Travel Form</legend>
+						<label>Username</label>
+							<input type="text" name="username" placeholder="Type Your Username" required>
+						
+						<label>Travel Starts from City</label>
+							<input type="text" name="travelstart" placeholder="Type a city that your travel starts from" maxlength="20" required>
+						
+						<label>Travel Ends at City</label>
+							<input type="text" name="travelend" placeholder="Type a city that your travel ends at" maxlength="20" required>
+						
+						<label>Travel Transport</label>
+							<input type="text" name="traveltransport" placeholder="Type a transport like: car, bus, ship, plane" maxlength="20" required>
+						
+						<label>Travel Date</label>
+							<input type="date" name="traveldate" data-date-inline-picker="true" required>
+						
+						<label>Travel Time</label>
+							<input type="time" name="traveltime" required>
+						<br>
+						<button class="button">Update</button>
+					<br><br>
+				</fieldset>
+			</form>
+		</div>
+		
+		<script type="text/javascript" src="JS/script-UpdatePage.js"></script>
+		
+		<div class="footer">
+			Copyright &copy; 2018 All Right To Nabila Samy &reg; Team
+		</div>
+	</body>
+</html>
