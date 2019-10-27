@@ -15,7 +15,7 @@
 			<a href="php-AboutPage.php"><i class="fa fa-fw fa-exclamation mark"></i> About</a>
 			<a href="php-ServicesPage.php"><i class="fa fa-fw fa-wrench"></i> Services</a>
 			<a href="php-ContactPage.php"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-			<a href="php-WelcomePage.php"><img src="Images/Icons/Logout.png" style="width:24;height:24;align:center;"> &nbsp Logout</a>
+			<a href="index.html"><img src="Images/Icons/Logout.png" style="width:24;height:24;align:center;"> &nbsp Logout</a>
 		</div>
 		
 		<?php
